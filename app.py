@@ -166,7 +166,7 @@ if __name__ == '__main__':
     # Initialize Azure AI Inference client on startup
     if initialize_azure_client():
         print("🚀 Flask app starting with Azure AI Inference integration...")
-        app.run(debug=True)
+        app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)
     else:
         print("❌ Failed to initialize Azure AI Inference client. Please check your cred.json file.")
         print("App will not start without proper Azure configuration.")

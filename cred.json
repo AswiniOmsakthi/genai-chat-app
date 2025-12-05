@@ -1,5 +1,5 @@
 {
-    "ENDPOINT": "your_azure_ai_inference_endpoint_here",
-    "API_KEY": "your_azure_ai_inference_api_key_here",
+    "ENDPOINT": "",
+    "API_KEY": "",
     "MODEL_DEPLOYMENT_NAME": "Phi-4"
 }
